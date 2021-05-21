@@ -36,11 +36,16 @@ body {
   font-family: var(--main-font);
   color: var(--grey-color);
 }
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
 /* HEADER */
 
 .header-container {
   border-bottom: 1px solid #d9d9de;
-
+  padding: 20px 0;
   display: flex;
   align-items: center;
 }
@@ -50,7 +55,24 @@ body {
   display: flex;
   align-items: center;
 }
+.contact-title-box {
+  margin-left: 98px;
+}
+.modal-btn {
+  display: inline-block;
+  margin-left: auto;
+  border-radius: 22px;
 
+  border: none;
+  padding: 14px 30px;
+  cursor: pointer;
+}
+.nav {
+  margin-top: 14px;
+}
+.nav-list-item + .nav-list-item {
+  margin-left: 32px;
+}
 .header-title {
   font-family: 'PT Serif', serif;
   font-weight: 700;
